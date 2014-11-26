@@ -1,88 +1,95 @@
 garua_partModel =
 
-[{
-        SectionName: "Slider",
-        instance: [{
-            inputs: [{
-                    name: "name1",
-                    type: "input"
-                }, {
-                    name: "name2",
-                    type: "checkbox"
-                }, {
-                    name: "select",
-                    type: "select",
-                    options: [
-                        ["opt", "optval"],
-                        ["opt2", "optval2"]
-                    ],
-                },
 
-            ]
-        }, {
-            inputs: [{
-                    name: "name1",
-                    type: "input"
-                }, {
-                    name: "name2",
-                    type: "checkbox"
-                }, {
-                    name: "select",
-                    type: "select",
-                    options: [
-                        ["opt", "optval"],
-                        ["opt2", "optval2"]
-                    ],
-                },
+	[
+	
+		{
+	        SectionName: "Slider",
+	        instance: [{
+	            inputs: [{
+	                    name: "name1",
+	                    type: "input"
+	                }, {
+	                    name: "name2",
+	                    type: "checkbox"
+	                }, {
+	                    name: "select",
+	                    type: "select",
+	                    options: [
+	                        ["opt", "optval"],
+	                        ["opt2", "optval2"]
+	                    ],
+	                },
 
-            ]
-        }],
+	            ]
+	        }, {
+	            inputs: [{
+	                    name: "name1",
+	                    type: "input"
+	                }, {
+	                    name: "name2",
+	                    type: "checkbox"
+	                }, {
+	                    name: "select",
+	                    type: "select",
+	                    options: [
+	                        ["opt", "optval"],
+	                        ["opt2", "optval2"]
+	                    ],
+	                },
 
-
-    }, {
-        SectionName: "Headings",
-        instance: [{
-            inputs: [{
-                    name: "name1_h0",
-                    type: "input"
-                }, {
-                    name: "name2_h0",
-                    type: "checkbox"
-                }, {
-                    name: "select_h0",
-                    type: "select",
-                    options: [
-                        ["opt", "optval"],
-                        ["opt2", "optval2"]
-                    ],
-                },
-
-            ]
-        }, {
-            inputs: [{
-                    name: "name1_h1",
-                    type: "input"
-                }, {
-                    name: "name2_h1",
-                    type: "checkbox"
-                }, {
-                    name: "select_h1",
-                    type: "select",
-                    options: [
-                        ["opt", "optval"],
-                        ["opt2", "optval2"]
-                    ],
-                },
-
-            ]
-        }],
+	            ]
+	        }],
 
 
-    },
+	    }, {
+	        SectionName: "Headings",
+	        instance: [{
+	            inputs: [{
+	                    name: "name1_h0",
+	                    type: "input"
+	                }, {
+	                    name: "name2_h0",
+	                    type: "checkbox"
+	                }, {
+	                    name: "select_h0",
+	                    type: "select",
+	                    options: [
+	                        ["opt", "optval"],
+	                        ["opt2", "optval2"]
+	                    ],
+	                },
+
+	            ]
+	        }, {
+	            inputs: [{
+	                    name: "name1_h1",
+	                    type: "input"
+	                }, {
+	                    name: "name2_h1",
+	                    type: "checkbox"
+	                }, {
+	                    name: "select_h1",
+	                    type: "select",
+	                    options: [
+	                        ["opt", "optval"],
+	                        ["opt2", "optval2"]
+	                    ],
+	                },
+
+	            ]
+	        }],
 
 
-];
-standardFields = [{garua_partModel}];
+	    },
+
+
+	]
+
+;
+standardFields=[]
+
+standardFields.push(garua_partModel);
 garua_templates = [];
 
 function garua_renderFields() {
@@ -90,22 +97,21 @@ function garua_renderFields() {
     //garua_registerParts();
     garua_output = '';
     garua_templates.forEach(function(template) {
-        var tempTemplate = template.templates[0];
+        var tempTemplate = template.templates;
         garua_output += '<div class="templateSection_' + tempTemplate + '">';
         garua_output += '<h1>' + tempTemplate + '</h1>';
 
-        template.parts.forEach(function(part) {
-            //console.log(part);
+        template.parts[0].forEach(function(part) {
+            //console.log(part.instance);
             tempclass = '';
 
-            part.standardFields.forEach(function(fields, index) {
-                //console.log(fields);
+            
 
-                fields.instance.forEach(function(field, index) {
-                    tempclass = tempTemplate + '-' + fields.SectionName + '-' + index;
+                part.instance.forEach(function(field, index) {
+                    tempclass = tempTemplate + '-' + part.SectionName + '-' + index;
                     //console.log(tempclass);
                     garua_output += '<div id="' + tempclass + '">';
-                    garua_output += '<h4>' + fields.SectionName + ' ' + index + '</h4>';
+                    garua_output += '<h4>' + part.SectionName + ' ' + index + '</h4>';
 
                     field.inputs.forEach(function(input) {
 
@@ -146,7 +152,7 @@ function garua_renderFields() {
 
                 }); //endoForeach inputs
 
-            }); //endoForeach instance
+           
 
         }); //endoForeach parts2
         garua_output += '</div>';
@@ -177,29 +183,28 @@ function getFieldsFromSection(sectionId) {
     garua_tempVal = [];
 
     garua_templates.forEach(function(template) {
-        var tempTemplate = template.templates[0];
+        var tempTemplate = template.templates;
 
-        template.parts.forEach(function(part) {
-            //console.log(part);
+       template.parts[0].forEach(function(part) {
             tempclass = '';
+          //  console.log(part);
 
-            part.standardFields.forEach(function(fields, index) {
-                //console.log(fields);
+            
 
-                fields.instance.forEach(function(field, index) {
-                    tempclass = tempTemplate + '-' + fields.SectionName + '-' + index;
+                part.instance.forEach(function(field, index) {
+                    tempclass = tempTemplate + '-' + part.SectionName + '-' + index;
                     //console.log(tempclass);
                     garua_output += '<div id="' + tempclass + '">';
-                    garua_output += '<h4>' + fields.SectionName + ' ' + index + '</h4>';
+                    garua_output += '<h4>' + part.SectionName + ' ' + index + '</h4>';
 
                     field.inputs.forEach(function(input) {
                         //console.log(field);
                         tempclass = '';
                         var indexxx = index;
-                        tempclass = tempTemplate + '-' + fields.SectionName + '-' + index;
+                        tempclass = tempTemplate + '-' + part.SectionName + '-' + index;
                         //console.log(tempclass);
                         garua_output += '<div id="' + tempclass + '">';
-                        garua_output += '<h4>' + fields.SectionName + ' ' + index + '</h4>';
+                        garua_output += '<h4>' + part.SectionName + ' ' + index + '</h4>';
 
                         field.inputs.forEach(function(input) {
                             //console.log(field);
@@ -216,7 +221,7 @@ function getFieldsFromSection(sectionId) {
                             }
                             input['value'] = garua_tempVal[0];
                             garua_tempVal = [];
-                            console.log(garua_tempVal);
+                           // console.log(garua_tempVal);
                         });
                         garua_sectionsModel = garua_templates;
                         //console.log(garua_sectionsModel);
@@ -226,7 +231,7 @@ function getFieldsFromSection(sectionId) {
 
                 });
 
-            });
+            
 
         });
 
@@ -245,20 +250,19 @@ function garua_populateFieldsFromJson() {
     var jsonn = $.parseJSON($('input[name="result"]').val());
     //console.log(jsonn);
     jsonn.forEach(function(template) {
-        var tempTemplate = template.templates[0];
+        var tempTemplate = template.templates;
 
-        template.parts.forEach(function(part) {
-            //console.log(part);
+        template.parts[0].forEach(function(part) {
+           // console.log(part.instance);
             tempclass = '';
 
-            part.standardFields.forEach(function(fields, index) {
-                //console.log(fields);
+            
 
-                fields.instance.forEach(function(field, index) {
-                    tempclass = tempTemplate + '-' + fields.SectionName + '-' + index;
+                part.instance.forEach(function(field, index) {
+                    tempclass = tempTemplate + '-' + part.SectionName + '-' + index;
                     //console.log(tempclass);
                     garua_output += '<div id="' + tempclass + '">';
-                    garua_output += '<h4>' + fields.SectionName + ' ' + index + '</h4>';
+                    garua_output += '<h4>' + part.SectionName + ' ' + index + '</h4>';
 
                     field.inputs.forEach(function(input) {
                         //console.log(input);
@@ -271,7 +275,7 @@ function garua_populateFieldsFromJson() {
                     });
                 });
 
-            });
+            
 
         });
 
@@ -295,7 +299,7 @@ $('#button4').click(function() {
 
 function garua_duplicateSection(section) {
     garua_partModel.forEach(function(d, index) {
-        console.log(d.SectionName);
+        //console.log(d.SectionName);
 
         if (d.SectionName == section) {
             var indexx = index;
@@ -326,7 +330,7 @@ $('#button5').click(function() {
 
 function appendToTemplate(templateName) {
 	var ll = standardFields;
-	var tn = [templateName];
+	var tn = templateName;
     garua_templates.push({
         templates: tn,
         parts: ll
@@ -337,7 +341,7 @@ function appendToTemplate(templateName) {
 
 
 appendToTemplate('blog');
-appendToTemplate('front');
+//appendToTemplate('front');
 //console.log(garua_templates);
 //console.log(how);
 garua_renderFields()
