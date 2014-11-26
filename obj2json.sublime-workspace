@@ -1,0 +1,1477 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"temp",
+				"tempclass	(str)"
+			],
+			[
+				"se",
+				"SectionName"
+			],
+			[
+				"for",
+				"forEach(f, context?)"
+			],
+			[
+				"inde",
+				"indexinstance	(num)"
+			],
+			[
+				"ind",
+				"indexname	(str)"
+			],
+			[
+				"garua",
+				"garuafw_part"
+			],
+			[
+				"b",
+				"both"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"out",
+				"outputClass"
+			],
+			[
+				"output",
+				"outputPanel"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"backgr",
+				"background-position"
+			],
+			[
+				"navi",
+				"navigation"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"bor",
+				"border-left"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"update",
+				"updateClock"
+			],
+			[
+				"operato",
+				"operators"
+			],
+			[
+				"html",
+				"htmlentities"
+			],
+			[
+				"att",
+				"att_id"
+			],
+			[
+				"sanitize_t",
+				"sanitize_title"
+			],
+			[
+				"san",
+				"sanitize_key"
+			],
+			[
+				"post",
+				"post_id"
+			],
+			[
+				"if",
+				"ifelse	if … else …"
+			],
+			[
+				"slu",
+				"slugyTitle"
+			],
+			[
+				"th",
+				"thumbnail"
+			],
+			[
+				"add_op",
+				"add_options_page"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"backgorun",
+				"background-color"
+			],
+			[
+				"bal",
+				"background-color"
+			],
+			[
+				"blo",
+				"inline-block"
+			],
+			[
+				"row",
+				"rowLiplInside"
+			],
+			[
+				"func",
+				"function"
+			],
+			[
+				"pl",
+				"plTools"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"list-s",
+				"list-style"
+			],
+			[
+				"disable",
+				"disable-sort"
+			],
+			[
+				"remove",
+				"removeGrids"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"small",
+				"small-block-grid-1"
+			],
+			[
+				"remo",
+				"removeClass	.removeClass()"
+			],
+			[
+				"del",
+				"delRow"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"c",
+				"click	.click()"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"BA",
+				"background-color"
+			],
+			[
+				"borde",
+				"border"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"p",
+				"padding-top"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"POS",
+				"position"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"marin",
+				"margin-left"
+			],
+			[
+				"fade",
+				"fadeIn	.fadeIn()"
+			],
+			[
+				"end",
+				"endDiv"
+			],
+			[
+				"en",
+				"endDiv"
+			],
+			[
+				"to",
+				"toggle	.toggle() (show/hide)"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"sli",
+				"slid2"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"borde-",
+				"border-bottom"
+			],
+			[
+				"the_",
+				"the_date"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"ro",
+				"row_count"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"min-",
+				"min-width"
+			],
+			[
+				"close",
+				"closePanel"
+			],
+			[
+				"express",
+				"ExpressOpen"
+			],
+			[
+				"curso",
+				"CursosOpen"
+			],
+			[
+				"pane",
+				"panelExpressOpen"
+			],
+			[
+				"slide",
+				"slideToggle	.slideToggle()"
+			],
+			[
+				"m",
+				"mycolor"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"border-le",
+				"border-bottom-left-radius"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"the_ti",
+				"the_title"
+			],
+			[
+				"mari",
+				"margin-top"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"backg",
+				"background"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"do_",
+				"do_shortcode"
+			],
+			[
+				"z-",
+				"z-index"
+			],
+			[
+				"set",
+				"setTimeout"
+			],
+			[
+				"mous",
+				"mouseleave	.mouseleave()"
+			],
+			[
+				"mou",
+				"mouseenter	.mouseenter()"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"ca",
+				"captionAnimate"
+			],
+			[
+				"slid",
+				"slidButton"
+			],
+			[
+				"inc",
+				"incr"
+			],
+			[
+				"count",
+				"counte"
+			],
+			[
+				"ur",
+				"url2show2"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"rea",
+				"ready	$(document).ready"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"arr",
+				"arrElementes"
+			],
+			[
+				"co",
+				"counttr"
+			],
+			[
+				"this",
+				"thisAnim"
+			],
+			[
+				"cone",
+				"console"
+			],
+			[
+				"vie",
+				"viewportHeight"
+			],
+			[
+				"THIS",
+				"thispath2"
+			],
+			[
+				"anim",
+				"animA"
+			],
+			[
+				"get",
+				"getRandomInt"
+			],
+			[
+				"sele",
+				"select"
+			],
+			[
+				"bla",
+				"blackCircle"
+			],
+			[
+				"til",
+				"tiltTime"
+			],
+			[
+				"tilt",
+				"tiltTime"
+			],
+			[
+				"tog",
+				"toggleTilt"
+			],
+			[
+				"zone",
+				"zoneArr"
+			],
+			[
+				"info",
+				"removeInfo"
+			],
+			[
+				"fla",
+				"flagY"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1082,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 3073,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"co",
+				"Toggle Comment"
+			],
+			[
+				"html",
+				"Snippet: HTML w/ jQuery"
+			],
+			[
+				"do",
+				"Snippet: $(document).ready"
+			],
+			[
+				"mini",
+				"Minify Javascript"
+			],
+			[
+				"sas",
+				"SassBeautify"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ja",
+				"Javascript Beautify"
+			],
+			[
+				"jaca",
+				"Javascript Beautify"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"qua",
+				"Snippet: ZURB Foundation Quarter Grid"
+			],
+			[
+				"full",
+				"Snippet: ZURB Foundation Full Grid"
+			],
+			[
+				"htmlb",
+				"HTMLBeautify"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"sass",
+				"SassBeautify"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"DOCUEM",
+				"Snippet: $(document).ready"
+			],
+			[
+				"DOCUME",
+				"Snippet: document.ready - $(function(){})"
+			],
+			[
+				"selec",
+				"ColorSchemeSelector: Select Color Scheme"
+			],
+			[
+				"colo",
+				"ColorSchemeSelector: Select Color Scheme"
+			],
+			[
+				"colors",
+				"ColorSchemeSelector: Select Color Scheme"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			],
+			[
+				"zurb ",
+				"Snippet: ZURB Foundation Quarter Grid"
+			],
+			[
+				"ab	",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"ab",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"hal",
+				"Snippet: ZURB Foundation Half Grid"
+			],
+			[
+				"AB",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"UPP",
+				"Convert Case: Upper Case"
+			],
+			[
+				"UP",
+				"Convert Case: Upper Case"
+			],
+			[
+				"up",
+				"Convert Case: Upper Case"
+			],
+			[
+				"ful",
+				"Snippet: ZURB Foundation Full Grid"
+			],
+			[
+				"thir",
+				"Snippet: ZURB Foundation Third Grid"
+			],
+			[
+				"c",
+				"Toggle Comment"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"lore",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"coc",
+				"Convert Case: Lower Case"
+			],
+			[
+				"CO",
+				"Toggle Comment"
+			],
+			[
+				"zurb full",
+				"Snippet: ZURB Foundation Full Grid"
+			],
+			[
+				"jquery",
+				"Snippet: Google AJAX Libraries: jQuery"
+			],
+			[
+				"zur",
+				"Snippet: ZURB Foundation Full Grid"
+			],
+			[
+				"place",
+				"Placehold.it: Insert Image"
+			],
+			[
+				"pla",
+				"Placehold.it: Insert Image"
+			],
+			[
+				"abre",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"abrevia",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"zurb",
+				"Snippet: ZURB Foundation Third Grid"
+			],
+			[
+				"upp",
+				"Convert Case: Upper Case"
+			],
+			[
+				"docu",
+				"Snippet: $(document).ready"
+			],
+			[
+				"enn",
+				"Emmet: Expand Abbreviation"
+			],
+			[
+				"yh",
+				"TidyHTML"
+			],
+			[
+				"ht",
+				"HTMLBeautify"
+			],
+			[
+				"comm",
+				"Toggle Comment"
+			],
+			[
+				"com",
+				"Toggle Comment"
+			],
+			[
+				"SAS",
+				"SassBeautify"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"UPPE",
+				"Convert Case: Upper Case"
+			],
+			[
+				"ha",
+				"Snippet: ZURB Foundation Half Grid"
+			],
+			[
+				"third",
+				"Snippet: ZURB Foundation Third Grid"
+			],
+			[
+				"foun",
+				"Snippet: ZURB Foundation Third Grid"
+			],
+			[
+				"insall",
+				"Package Control: Install Package"
+			],
+			[
+				"ti",
+				"Tidy PHP"
+			],
+			[
+				"ty",
+				"TidyHTML"
+			],
+			[
+				"t",
+				"TidyHTML"
+			],
+			[
+				"tid",
+				"TidyHTML"
+			],
+			[
+				"fou",
+				"Snippet: ZURB Foundation Half Grid"
+			],
+			[
+				"h1",
+				"Snippet: <h1> - <h6>"
+			],
+			[
+				"div",
+				"Snippet: <div>"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"orb",
+				"Snippet: ZURB Foundation 5 Orbit Slider"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"script",
+				"Snippet: <script>"
+			],
+			[
+				"boiler",
+				"Snippet: Simple HTML5 Boilerplate"
+			],
+			[
+				"doct",
+				"Snippet: DOCTYPE HTML"
+			],
+			[
+				"html5",
+				"Snippet: Simple HTML5 Boilerplate"
+			],
+			[
+				"pro",
+				"Package Control: Install Package"
+			],
+			[
+				"form",
+				"Format: Php"
+			],
+			[
+				"FORMA",
+				"Format: Php"
+			],
+			[
+				"",
+				"Bookmarks: Toggle"
+			],
+			[
+				"Tidy P",
+				"Tidy PHP"
+			],
+			[
+				"Package Control: c",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: sa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Applications/AMPPS/www/javascript.dev/objectFiddle"
+	],
+	"file_history":
+	[
+		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/parts/content-slider-1.php",
+		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/sass/variables-site/_garua.scss",
+		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/parts/content-headings-1.php",
+		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/pages/full-width.php",
+		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/pages/blog.php",
+		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/sass/navigation/_menus.scss",
+		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/js/navigation.js",
+		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/sass/template-parts/_header.scss",
+		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/header.php",
+		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/sass/template-parts/_footer.scss",
+		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/functions.php",
+		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/sass/mixins/_mixins-master.scss",
+		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/sass/variables-site/_variables-site.scss",
+		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/inc/garua.php",
+		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/sass/elements/_lists.scss",
+		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/sass/elements/_grids.scss",
+		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/sass/elements/_elements.scss",
+		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/sass/_reset.scss",
+		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/sass/template-parts/_slider.scss",
+		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/sass/template-parts/_template-parts.scss",
+		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/bower_components/OwlCarousel/owl-carousel/owl.carousel.css",
+		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/bower_components/OwlCarousel/owl-carousel/owl.theme.css",
+		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/js/ajaxHome.js",
+		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/inc/customizer.php",
+		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/js/customizer.js",
+		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/languages/es_ES.po",
+		"/Applications/AMPPS/www/wpplug.dev/wp/wp-content/themes/mxdark/functions.php",
+		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/sass/template-parts/_content.scss",
+		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/sass/template-parts/_body.scss",
+		"/Applications/AMPPS/www/wpplug.dev/wp/wp-content/themes/mxdark/sass/style.scss",
+		"/Users/eduardoreges/Library/Caches/Cleanup At Startup/Transmit/5111D72A-E728-4D4E-AE97-ACDBDB61F6B7/header.php",
+		"/Users/eduardoreges/Library/Caches/Cleanup At Startup/Transmit/B8B7A5A2-CF40-4FFF-B034-12C2317E01FD/cuponesWeb.css",
+		"/Applications/AMPPS/www/ooptutorial.dev/functions/sanitize.php",
+		"/Applications/AMPPS/www/ooptutorial.dev/includes/errors/404.php",
+		"/Applications/AMPPS/www/ooptutorial.dev/functions/sanitiza.php",
+		"/Applications/AMPPS/www/ooptutorial.dev/core/init.php",
+		"/Applications/AMPPS/www/ooptutorial.dev/classes/Validation.php",
+		"/Applications/AMPPS/www/ooptutorial.dev/classes/User.php",
+		"/Applications/AMPPS/www/ooptutorial.dev/classes/Token.php",
+		"/Applications/AMPPS/www/ooptutorial.dev/classes/Session.php",
+		"/Applications/AMPPS/www/ooptutorial.dev/classes/Redirect.php",
+		"/Applications/AMPPS/www/ooptutorial.dev/index.php",
+		"/Applications/AMPPS/www/ooptutorial.dev/classes/Input.php",
+		"/Applications/AMPPS/www/ooptutorial.dev/classes/Hash.php",
+		"/Applications/AMPPS/www/ooptutorial.dev/classes/DB.php",
+		"/Applications/AMPPS/www/ooptutorial.dev/classes/cookie.php",
+		"/Applications/AMPPS/www/ooptutorial.dev/classes/config.php",
+		"/Applications/AMPPS/www/ooptutorial.dev/config.php",
+		"/Applications/AMPPS/www/ooptutorial.dev/updatepassword.php",
+		"/Applications/AMPPS/www/ooptutorial.dev/login.php",
+		"/Applications/AMPPS/www/ooptutorial.dev/logout.php ",
+		"/Applications/AMPPS/www/ooptutorial.dev/register.php",
+		"/Applications/AMPPS/www/ooptutorial.dev/update.php",
+		"/Users/eduardoreges/Dev/vagrantBoxes/new/test.dev/public_html/index.html",
+		"/Applications/AMPPS/www/wordpress-app/.env.production.php",
+		"/Applications/AMPPS/www/wordpress-app/.env.local.php",
+		"/Applications/AMPPS/www/wordpress-app/config/environment.php",
+		"/Applications/AMPPS/apache/logs/themosis.dev.log",
+		"/Applications/AMPPS/apache/logs/testwp.dev.log",
+		"/Applications/AMPPS/apache/logs/them.dev.log",
+		"/Applications/AMPPS/apache/logs/themosis.dev.err",
+		"/Users/eduardoreges/.bash_profile",
+		"/Applications/AMPPS/www/segunda.dev/wp-content/themes/secondopinion/header.php",
+		"/Users/eduardoreges/Downloads/fetch-feed-shortcode-pageable/fetch-feed-shortcode-pageable.php",
+		"/Applications/AMPPS/www/wpplug.dev/wp/wp-content/plugins/admin-ajax-demo/js/aad-ajax.js",
+		"/Users/eduardoreges/Library/Caches/Cleanup At Startup/Transmit/DE5172C7-97FA-4CB6-A9B9-05EDD50F4B80/nadando.scss",
+		"/Applications/AMPPS/www/segunda.dev/wp-content/themes/secondopinion/sass/template-parts/_footer.scss",
+		"/Applications/AMPPS/www/segunda.dev/wp-content/themes/secondopinion/sass/template-parts/_header.scss",
+		"/Applications/AMPPS/www/segunda.dev/wp-content/themes/secondopinion/sass/template-parts/_template-parts.scss",
+		"/Applications/AMPPS/www/segunda.dev/wp-content/themes/secondopinion/sass/template-parts/_content.scss",
+		"/Applications/AMPPS/www/segunda.dev/wp-content/themes/secondopinion/sass/responsive/_susyLayouts.scss",
+		"/Applications/AMPPS/www/segunda.dev/wp-content/themes/secondopinion/sass/template-parts/_sidebar.scss",
+		"/Applications/AMPPS/www/segunda.dev/wp-content/themes/secondopinion/sass/variables-site/_typography.scss",
+		"/Applications/AMPPS/www/segunda.dev/wp-content/themes/secondopinion/footer.php",
+		"/Applications/AMPPS/www/segunda.dev/wp-content/themes/secondopinion/sass/responsive/susyLayouts.scss",
+		"/Applications/AMPPS/www/segunda.dev/wp-content/themes/secondopinion/sass/style.scss",
+		"/Applications/AMPPS/www/segunda.dev/wp-content/themes/secondopinion/sass/mixins/_mixins-master.scss",
+		"/Applications/AMPPS/www/localstyles.dev/segunda/Scss/style.scss",
+		"/Users/eduardoreges/Library/Caches/Cleanup At Startup/Transmit/7385760D-1240-491A-BA2B-060B4E0C62DA/header.php",
+		"/Users/eduardoreges/Library/Caches/Cleanup At Startup/Transmit/1009C385-D569-4A63-AE12-D1919C39A8B1/style.scss",
+		"/Users/eduardoreges/Library/Caches/Cleanup At Startup/Transmit/2058A061-C3D5-4B1B-A594-E05C15CD0D2F/style.scss",
+		"/Users/eduardoreges/Library/Caches/Cleanup At Startup/Transmit/72E7E385-A624-44B7-8B35-F8FCD8B972CC/style.scss",
+		"/Users/eduardoreges/Library/Caches/Cleanup At Startup/Transmit/344F291A-105C-4AD8-BB80-7763E067A749/header.php",
+		"/Users/eduardoreges/Library/Caches/Cleanup At Startup/Transmit/352E498A-C6C7-40D9-B172-CA0854DB208A/footer.php",
+		"/Users/eduardoreges/Library/Caches/Cleanup At Startup/Transmit/23AB208A-8C83-4FCD-AF8C-2EA7CC20EC50/_menus.scss",
+		"/Users/eduardoreges/Library/Caches/Cleanup At Startup/Transmit/8E56B51B-AC1D-4D0B-8351-D03D1F23E71D/style.scss",
+		"/Users/eduardoreges/Library/Caches/Cleanup At Startup/Transmit/3E8B47CA-7A1C-4EFA-AA6B-DF1E16325725/_menus.scss",
+		"/Users/eduardoreges/Library/Caches/Cleanup At Startup/Transmit/32150E38-B227-4D81-9E96-406927A99E17/_menus.scss",
+		"/Users/eduardoreges/Library/Caches/Cleanup At Startup/Transmit/582D6E5F-C801-4C25-B727-0B22F7AC3042/functions.php",
+		"/Users/eduardoreges/Dropbox/Codekit/suzy/config.rb",
+		"/Users/eduardoreges/Library/Caches/Cleanup At Startup/Transmit/2B9E47EA-AC6C-404D-B87E-3DC6A74D68B7/index.html",
+		"/Users/eduardoreges/Documents/cursos Wordpress/Cursos Wordpress - Platillas Basico/Detalle",
+		"/Applications/AMPPS/www/grid.dev/css/style4.css",
+		"/Applications/AMPPS/www/grid.dev/scss/style3.scss",
+		"/Applications/AMPPS/www/grid.dev/js/app.js",
+		"/Applications/AMPPS/www/grid.dev/scss/style.scss",
+		"/Applications/AMPPS/www/grid.dev/index2.html",
+		"/Applications/AMPPS/www/grid.dev/index.html",
+		"/Applications/AMPPS/www/grid.dev/js/vendor/jquery-1.9.1.js",
+		"/Applications/AMPPS/www/grid.dev/css/style.css",
+		"/Users/eduardoreges/Library/Caches/Cleanup At Startup/Transmit/E476935E-ED0A-467B-86EC-86EEBDF5D213/nadando2.css",
+		"/Users/eduardoreges/Library/Caches/Cleanup At Startup/Transmit/085698C1-5FEB-4C1E-9A95-A884777748E6/page-personal.php",
+		"/Applications/AMPPS/www/matdemo1.dev/wp-content/themes/demo1/library/joints.php",
+		"/Applications/AMPPS/www/matdemo1.dev/wp-content/themes/JointsWP-master/library/scss/demo1.scss",
+		"/Applications/AMPPS/www/matdemo1.dev/wp-content/themes/JointsWP-master/Paginas/demo1.php",
+		"/Applications/AMPPS/www/matdemo1.dev/wp-content/themes/JointsWP-master/library/joints.php",
+		"/Users/eduardoreges/Library/Caches/Cleanup At Startup/Transmit/61E8A71E-E5EE-44E4-A1D5-314802392170/page-gallery.php",
+		"/Applications/AMPPS/www/matiasola1.dev/wp-content/themes/JointsWP-master/partials/nav-offcanvas.php",
+		"/Applications/AMPPS/www/matiasola1.dev/wp-content/themes/JointsWP-master/library/scss/style.scss",
+		"/Applications/AMPPS/www/matiasola1.dev/wp-content/themes/JointsWP-master/page-custom.php",
+		"/Users/eduardoreges/Library/Caches/Cleanup At Startup/Transmit/2354DFE1-A8D7-49E7-A4CD-D7CDA7A35400/page-workwithus.php",
+		"/Applications/AMPPS/www/training.magazinebtl.dev/wp-content/themes/JointsWP-master/library/scss/style.scss",
+		"/Users/eduardoreges/Dropbox/Codekit/magazineTraining/index.html",
+		"/Users/eduardoreges/Library/Caches/Cleanup At Startup/Transmit/643EAD2F-819F-4ACB-B70C-E65C37DD25AC/style-login.css",
+		"/Applications/AMPPS/www/nadandolibre.dev/wp-content/themes/nl/sidebar-cursos.php",
+		"/Applications/AMPPS/www/nadandolibre.dev/wp-content/themes/nl/paginas/page-online1-1.php",
+		"/Applications/AMPPS/www/nadandolibre.dev/wp-content/themes/nl/single-course_unit.php",
+		"/Applications/AMPPS/www/nadandolibre.dev/wp-content/themes/nl/single-cursos.php",
+		"/Applications/AMPPS/www/nadandolibre.dev/wp-content/themes/nl/paginas/page-conservacion.php",
+		"/Applications/AMPPS/www/nadandolibre.dev/wp-content/themes/nl/library/js/scripts.js",
+		"/Applications/AMPPS/www/nadandolibre.dev/wp-content/themes/nl/library/js/mScript.js",
+		"/Applications/AMPPS/www/nadandolibre.dev/wp-content/themes/nl/header.php",
+		"/Applications/MAMP/htdocs/backNadando/wp-content/themes/nl/library/css/nadando.css",
+		"/Users/eduardoreges/Library/Caches/Cleanup At Startup/Transmit/EE5535A1-74CD-41FF-A6CE-E5A0D591D43D/wp-config.php",
+		"/Applications/MAMP/htdocs/padi/wp-content/themes/nl/library/scss/nadando.scss",
+		"/Applications/MAMP/htdocs/padi/wp-content/themes/nl/paginas/inicio.php",
+		"/Applications/MAMP/htdocs/padi/wp-content/themes/nl/partials/content-expresdropdown.php",
+		"/Applications/MAMP/htdocs/padi/wp-content/themes/nl/single-cursos.php"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"field[1]",
+			"field[0]",
+			"garuafw_template_1_slider_1_field",
+			"option",
+			"$",
+			"mxd_get_results",
+			"filter",
+			"1.5em",
+			"ul",
+			"24",
+			"margin",
+			"margin-to",
+			"marginr",
+			"marginr-top",
+			"margin-top",
+			"top",
+			"headings",
+			"headin",
+			"clear",
+			"bottom",
+			"css",
+			"mxd",
+			"mxd_get_results",
+			"irl",
+			"url",
+			"logo",
+			"media",
+			"root",
+			"content",
+			"form",
+			"hook",
+			"hoook",
+			"hook",
+			"worpdress",
+			"slug_e",
+			"exist",
+			"slug_exis",
+			"ajax",
+			"echo",
+			"ajax",
+			"echo",
+			"ajax",
+			"echo",
+			"mxd_get_ajax",
+			"vars",
+			"data",
+			"vars",
+			"if( !isset( $_POST['mxd_nonce'] ) || !wp_verify_nonce($_POST['mxd_nonce'], 'mxd-nonce') )\n		die('Permissions check failed');	",
+			"options_page",
+			"call_user",
+			"mxd_settin",
+			"'pluginPage'",
+			"pluginPage",
+			"interakt_",
+			"PS_Interakt",
+			"process",
+			"aad",
+			"swf",
+			"some",
+			"http://estudiomxd.com/nadandolibre.com",
+			"nadan",
+			"margin:0 auto",
+			"margin: 0 auto",
+			"nth",
+			"right",
+			"subme",
+			"border",
+			"000",
+			"en_E",
+			"en",
+			"1",
+			"200",
+			"descargo",
+			">\n",
+			"precio",
+			"loca",
+			"JQUER",
+			"$",
+			"x150",
+			"margin: 10",
+			"margin:10",
+			"margin-top:10",
+			"margin-top: 10",
+			"conten",
+			"body",
+			"000",
+			"content",
+			"top-ba",
+			"top",
+			"trian",
+			"top-bar",
+			"topbar",
+			"top",
+			"drop",
+			"index",
+			"z-in",
+			"z-ind",
+			"z-index",
+			"index",
+			"url",
+			"gradient",
+			"panel",
+			"ooo",
+			"url",
+			"curse",
+			"logo",
+			"magella",
+			"li",
+			"text",
+			"sticky",
+			"left",
+			"right",
+			"margin",
+			"left",
+			"fixed",
+			"magellanContainer",
+			"magella",
+			"div",
+			"magell",
+			"li",
+			"magel",
+			"mage",
+			"magell",
+			"magellan",
+			"megallan",
+			"LI",
+			"grid",
+			"magella"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"input.type",
+			"input.name",
+			"jQuery",
+			"wordpress",
+			"__FILE__",
+			"mxd_",
+			"MXD_",
+			"mxd_",
+			"MXD_options",
+			"mxd",
+			"agk",
+			"http://estudiomxd.com/nl.com",
+			"jQuery",
+			"x350",
+			"http://estudiomxd.com/nadandolibre.com/wp-content/themes/nl-master/imagesRoot/",
+			"",
+			"//tmp.mxdesign.com.ar/nl",
+			"http://localhost:8888/nad",
+			"http://tmp.mxdesign.com.ar/nl",
+			"'",
+			"http://members.missioncontrol.com.ar",
+			"www.mxdesign.com.ar",
+			"right\">Cerrar</a>",
+			"errar",
+			"cerrar",
+			"#F28433"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1082,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								396,
+								396
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3073,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								879,
+								879
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1203.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"project": "obj2json.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 193.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}
