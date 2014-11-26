@@ -1,4 +1,3 @@
-
 garua_partModel =
 
 [{
@@ -83,7 +82,7 @@ garua_partModel =
 
 
 ];
-standardFields = garua_partModel;
+standardFields = [{garua_partModel}];
 garua_templates = [];
 
 function garua_renderFields() {
@@ -245,7 +244,7 @@ $('#button2').click(function() {
 function garua_populateFieldsFromJson() {
     var jsonn = $.parseJSON($('input[name="result"]').val());
     //console.log(jsonn);
-    garua_templates.forEach(function(template) {
+    jsonn.forEach(function(template) {
         var tempTemplate = template.templates[0];
 
         template.parts.forEach(function(part) {
@@ -326,12 +325,11 @@ $('#button5').click(function() {
 });
 
 function appendToTemplate(templateName) {
-
+	var ll = standardFields;
+	var tn = [templateName];
     garua_templates.push({
-        templates: [templateName],
-        parts: [{
-            standardFields
-        }]
+        templates: tn,
+        parts: ll
     });
 
 }
