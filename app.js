@@ -1,3 +1,107 @@
+how =
+[
+	{
+
+		Template:"Frontapage",
+		templateParts:
+
+
+		[
+			{
+		        SectionName: "Slider",
+		        instance: [{
+		            inputs: [{
+		                    name: "name1",
+		                    type: "input"
+		                }, {
+		                    name: "name2",
+		                    type: "checkbox"
+		                }, {
+		                    name: "select",
+		                    type: "select",
+		                    options: [
+		                        ["opt", "optval"],
+		                        ["opt2", "optval2"]
+		                    ],
+		                },
+
+		            ]
+		        }, {
+		            inputs: [{
+		                    name: "name1",
+		                    type: "input"
+		                }, {
+		                    name: "name2",
+		                    type: "checkbox"
+		                }, {
+		                    name: "select",
+		                    type: "select",
+		                    options: [
+		                        ["opt", "optval"],
+		                        ["opt2", "optval2"]
+		                    ],
+		                },
+
+		            ]
+		        }],
+
+
+		    }, {
+		        SectionName: "Headings",
+		        instance: [{
+		            inputs: [{
+		                    name: "name1_h0",
+		                    type: "input"
+		                }, {
+		                    name: "name2_h0",
+		                    type: "checkbox"
+		                }, {
+		                    name: "select_h0",
+		                    type: "select",
+		                    options: [
+		                        ["opt", "optval"],
+		                        ["opt2", "optval2"]
+		                    ],
+		                },
+
+		            ]
+		        }, {
+		            inputs: [{
+		                    name: "name1_h1",
+		                    type: "input"
+		                }, {
+		                    name: "name2_h1",
+		                    type: "checkbox"
+		                }, {
+		                    name: "select_h1",
+		                    type: "select",
+		                    options: [
+		                        ["opt", "optval"],
+		                        ["opt2", "optval2"]
+		                    ],
+		                },
+
+		            ]
+		        }],
+
+
+		    },
+
+
+		]
+
+
+
+
+
+
+
+	}
+
+];
+
+
+
 garua_partModel =
 
 [
@@ -83,62 +187,76 @@ garua_partModel =
 
 
 ];
-garua_StandardFields = garua_partModel;
-garua_templates =[{template: [] }];
+standardFields = garua_partModel;
+garua_templates =[];
 
 function garua_renderFields() {
     $('.parts').html('');
     //garua_registerParts();
     garua_output = '';
-    garua_partModel.forEach(function(part) {
-        tempclass = '';
+    garua_templates.forEach(function(template) {
+    	var tempTemplate = template.templates[0];
+    	garua_output += '<div class="templateSection_'+tempTemplate+'">';
+    	garua_output += '<h1>'+tempTemplate+'</h1>';
 
-        part.instance.forEach(function(field, index) {
-            tempclass = part.SectionName + '-' + index;
-            //console.log(tempclass);
-            garua_output += '<div id="' + tempclass + '">';
-            garua_output += '<h4>' + part.SectionName + ' ' + index + '</h4>';
+	    template.parts.forEach(function(part) {
+	    	//console.log(part);
+	        tempclass = '';
 
-            field.inputs.forEach(function(input) {
+	        part.standardFields.forEach(function(fields, index) {
+	        	//console.log(fields);
 
-                if (input.type == 'input') {
-                    garua_output += '<label>' + input.name + '</label>';
-                    garua_output += '<input id="' + tempclass + '-' + input.name + '"name="' + tempclass + '-' + input.name + '" /></br>';
-                } else if (input.type == 'textarea') {
-                    garua_output += '<label>' + input.name + '</label>';
-                    garua_output += '<textarea rows="4" cols="50" id="' + tempclass + '-' + input.name + '"name="' + tempclass + '-' + input.name + '"></textarea></br>';
-                } else if (input.type == 'checkbox') {
-                    garua_output += '<label>' + input.name + '</label>';
-                    garua_output += '<input type="checkbox" id="' + tempclass + '-' + input.name + '"name="' + tempclass + '-' + input.name + '" /></br>';
-                } else if (input.type == 'select') {
-                    // Use this to append options dynamically:
-                    // var o = new Option("option text", "value");
-                    // /// jquerify the DOM object 'o' so we can use the html method
-                    // $(o).html("option text");
-                    // $("#selectList").append(o);
-                    //http://stackoverflow.com/questions/740195/adding-options-to-a-select-using-jquery-javascript
-                    garua_output += '<label>' + input.name + '</label>';
-                    garua_output += '<select id="' + tempclass + '-' + input.name + '"name="' + tempclass + '-' + input.name + '" >';
-                    if (typeof input.options != 'undefined') {
-                        input.options.forEach(function(t) {
-                            garua_output += '<option value="' + t[0] + '">' + t[1] + '</option>';
-                        });
+		        fields.instance.forEach(function(field, index) {
+		            tempclass = tempTemplate+'-'+fields.SectionName  + '-' + index;
+		            //console.log(tempclass);
+		            garua_output += '<div id="' + tempclass + '">';
+		            garua_output += '<h4>' + fields.SectionName + ' ' + index + '</h4>';
+
+		            field.inputs.forEach(function(input) {
+
+		                if (input.type == 'input') {
+		                    garua_output += '<label>' + input.name + '</label>';
+		                    garua_output += '<input id="' + tempclass + '-' + input.name + '"name="' + tempclass + '-' + input.name + '" /></br>';
+		                } else if (input.type == 'textarea') {
+		                    garua_output += '<label>' + input.name + '</label>';
+		                    garua_output += '<textarea rows="4" cols="50" id="' + tempclass + '-' + input.name + '"name="' + tempclass + '-' + input.name + '"></textarea></br>';
+		                } else if (input.type == 'checkbox') {
+		                    garua_output += '<label>' + input.name + '</label>';
+		                    garua_output += '<input type="checkbox" id="' + tempclass + '-' + input.name + '"name="' + tempclass + '-' + input.name + '" /></br>';
+		                } else if (input.type == 'select') {
+		                    // Use this to append options dynamically:
+		                    // var o = new Option("option text", "value");
+		                    // /// jquerify the DOM object 'o' so we can use the html method
+		                    // $(o).html("option text");
+		                    // $("#selectList").append(o);
+		                    //http://stackoverflow.com/questions/740195/adding-options-to-a-select-using-jquery-javascript
+		                    garua_output += '<label>' + input.name + '</label>';
+		                    garua_output += '<select id="' + tempclass + '-' + input.name + '"name="' + tempclass + '-' + input.name + '" >';
+		                    if (typeof input.options != 'undefined') {
+		                        input.options.forEach(function(t) {
+		                            garua_output += '<option value="' + t[0] + '">' + t[1] + '</option>';
+		                        });
 
 
-                    }
-                    garua_output += '</select></br>';
+		                    }
+		                    garua_output += '</select></br>';
 
 
-                }
+		                }
 
 
-            });
-            garua_output += '<hr>';
-            garua_output += '</div>';
+		            });
+		            garua_output += '<hr>';
+		            garua_output += '</div>';
 
-        });//endoForeach inputs
+		        });//endoForeach inputs
 
-    });//endoForeach parts
+		    });//endoForeach instance
+
+	    });//endoForeach parts2
+	    	  garua_output += '</div>';
+
+	});//endoForeach templates
 
     $('.parts').append(garua_output);
 } //end renderFields
@@ -153,45 +271,68 @@ $('.sendDown').click(function() {
     //console.log(idd);
     //arr.push(idd);
     //console.log('bla');
-    garua_sectionsModel = [];
-    garua_tempVal = [];
+
     $('input[name="result"]').val('');
     getFieldsFromSection();
 
 });
 
 function getFieldsFromSection(sectionId) {
-    garua_partModel.forEach(function(part) {
-        tempclass = '';
-        part.instance.forEach(function(field, index) {
-            var indexxx = index;
-            tempclass = part.SectionName + '-' + index;
-            //console.log(tempclass);
-            garua_output += '<div id="' + tempclass + '">';
-            garua_output += '<h4>' + part.SectionName + ' ' + index + '</h4>';
+	    garua_sectionsModel = [];
+    garua_tempVal = [];
 
-            field.inputs.forEach(function(input) {
+     garua_templates.forEach(function(template) {
+    	var tempTemplate = template.templates[0];
 
-                if (input.type == 'input' || input.type == 'textarea') {
-                    garua_tempVal.push($('#' + tempclass + '-' + input.name).val());
-                } else if (input.type == 'checkbox') {
-                    if ($('#' + tempclass + '-' + input.name).prop('checked') == true) {
-                        garua_tempVal.push('True');
-                    } else {
-                        garua_tempVal.push('false');
-                    }
-                } else if (input.type == 'select') {
-                    garua_tempVal.push($('#' + tempclass + '-' + input.name).val());
-                }
-                input['value'] = garua_tempVal[0];
-                garua_tempVal = [];
-            });
-            garua_sectionsModel = garua_partModel;
-            //console.log(garua_sectionsModel);
-            garua_jsonString = JSON.stringify(garua_sectionsModel);
-            $('input[name="result"]').val(garua_jsonString);
-        });
-    });
+	    template.parts.forEach(function(part) {
+	    	//console.log(part);
+	        tempclass = '';
+
+	        part.standardFields.forEach(function(fields, index) {
+	        	//console.log(fields);
+
+		        fields.instance.forEach(function(field, index) {
+		            tempclass = tempTemplate+'-'+fields.SectionName  + '-' + index;
+		            //console.log(tempclass);
+		            garua_output += '<div id="' + tempclass + '">';
+		            garua_output += '<h4>' + fields.SectionName + ' ' + index + '</h4>';
+
+		            field.inputs.forEach(function(input) {
+		            	//console.log(field);
+				        tempclass = '';
+				            var indexxx = index;
+		          			  tempclass = tempTemplate+'-'+fields.SectionName  + '-' + index;
+				            //console.log(tempclass);
+				            garua_output += '<div id="' + tempclass + '">';
+				            garua_output += '<h4>' + fields.SectionName + ' ' + index + '</h4>';
+
+				            field.inputs.forEach(function(input) {
+				            	//console.log(field);
+				                if (input.type == 'input' || input.type == 'textarea') {
+				                    garua_tempVal.push($('#' + tempclass + '-' + input.name).val());
+				                } else if (input.type == 'checkbox') {
+				                    if ($('#' + tempclass + '-' + input.name).prop('checked') == true) {
+				                        garua_tempVal.push('True');
+				                    } else {
+				                        garua_tempVal.push('false');
+				                    }
+				                } else if (input.type == 'select') {
+				                    garua_tempVal.push($('#' + tempclass + '-' + input.name).val());
+				                }
+				                input['value'] = garua_tempVal[0];
+				                garua_tempVal = [];
+				               console.log(garua_tempVal);
+				            });
+				            garua_sectionsModel = garua_templates;
+				            //console.log(garua_sectionsModel);
+				            garua_jsonString = JSON.stringify(garua_sectionsModel);
+				            $('input[name="result"]').val(garua_jsonString);
+				        });
+				    });
+				});
+			});
+		});
+		
 
 }
 
@@ -205,14 +346,23 @@ $('#button2').click(function() {
 function garua_populateFieldsFromJson() {
     var jsonn = $.parseJSON($('input[name="result"]').val());
     //console.log(jsonn);
-    garua_partModel.forEach(function(part) {
-        tempclass = '';
+   garua_templates.forEach(function(template) {
+    	var tempTemplate = template.templates[0];
 
-        part.instance.forEach(function(field, index) {
-            tempclass = part.SectionName + '-' + index;
+	    template.parts.forEach(function(part) {
+	    	//console.log(part);
+	        tempclass = '';
 
+	        part.standardFields.forEach(function(fields, index) {
+	        	//console.log(fields);
 
-            field.inputs.forEach(function(input) {
+		        fields.instance.forEach(function(field, index) {
+		            tempclass = tempTemplate+'-'+fields.SectionName  + '-' + index;
+		            //console.log(tempclass);
+		            garua_output += '<div id="' + tempclass + '">';
+		            garua_output += '<h4>' + fields.SectionName + ' ' + index + '</h4>';
+
+		            field.inputs.forEach(function(input) {
             	//console.log(input);
                 $('#' + tempclass + '-' + input.name).val(input.value);
                	// if checkbox...
@@ -223,6 +373,8 @@ function garua_populateFieldsFromJson() {
             });
         });
 
+    });
+    });
     });
 }
 
@@ -260,6 +412,7 @@ function garua_duplicateSection(section) {
     })
     console.log(garua_partModel[1].instance);
     garua_renderFields();
+    garua_populateFieldsFromJson();
 
 
 }
@@ -270,15 +423,20 @@ $('#button5').click(function() {
 
 });
 
-garua_renderFields()
 function appendToTemplate(templateName){
 
-	garua_templates.push({template:[templateName],parts:[garua_StandardFields]});
+	garua_templates.push({ templates:[templateName],parts:[{standardFields }]});
 		
 }
-appendToTemplate('froant');
+//garua_templates[0].parts[0].standardFields[0].instance[0].inputs[0]appendToTemplate('froant');
+
+
 appendToTemplate('blog');
-console.log(garua_templates);
+appendToTemplate('front');
+//console.log(garua_templates);
+//console.log(how);
+garua_renderFields()
+
 
 
 
