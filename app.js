@@ -1,6 +1,7 @@
 garua_partModel =
 
-[{
+[
+	{
         SectionName: "Slider",
         instance: [{
             inputs: [{
@@ -82,6 +83,8 @@ garua_partModel =
 
 
 ];
+garua_StandardFields = garua_partModel;
+garua_templates =[{template: [] }];
 
 function garua_renderFields() {
     $('.parts').html('');
@@ -133,17 +136,9 @@ function garua_renderFields() {
             garua_output += '<hr>';
             garua_output += '</div>';
 
-        });
+        });//endoForeach inputs
 
-
-
-
-
-
-
-
-
-    });
+    });//endoForeach parts
 
     $('.parts').append(garua_output);
 } //end renderFields
@@ -276,5 +271,15 @@ $('#button5').click(function() {
 });
 
 garua_renderFields()
+function appendToTemplate(templateName){
 
-//console.log(garua_partModel);
+	garua_templates.push({template:[templateName],parts:[garua_StandardFields]});
+		
+}
+appendToTemplate('froant');
+appendToTemplate('blog');
+console.log(garua_templates);
+
+
+
+
